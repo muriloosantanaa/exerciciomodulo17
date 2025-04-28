@@ -1,5 +1,6 @@
 @import "variaveis.less";
 @import "mapas.less";
+@import 'variaveis.less';
 
 @breakpointMobile: ~"(max-width: 767px)";
 @breakpointTablet: ~"(max-width: 1023px)";
@@ -22,7 +23,7 @@
 }
 
 body {
-  background-color: #colors[backgroundColor];
+  background-color: @mainBackground;
 }
 
 li {
